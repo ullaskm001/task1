@@ -147,7 +147,7 @@ body{
 .second-section{
     display: flex;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0px 50px 0px 50px;
 }
 .secondone img{
@@ -475,7 +475,6 @@ hr{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height: fit-content;
     }
     .secondone{
         margin: 0px;
