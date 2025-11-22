@@ -395,7 +395,7 @@ hr{
         z-index: 999; /* show above everything */
     }
     .second-section{
-    height: 100vh;}
+    height: auto;}
     .menu button{
         margin-left: 35px;
         width: 80%;
