@@ -205,6 +205,7 @@ body{
     color: rgb(122, 121, 121);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
+    margin-top: 0px;
 }
 /* Our Courses */
 .ourcourses{
