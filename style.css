@@ -23,6 +23,7 @@ body{
 }
 .menu ul li{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu button{
     background-color: rgb(255, 221, 0);
@@ -45,6 +46,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .leftcover{
     padding: 0px 50px 0px 50px;
@@ -147,6 +150,8 @@ body{
     display: flex;
     align-items: center;
     /* height: 100vh; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0px 50px 0px 50px;
 }
 .secondone img{
@@ -371,8 +376,34 @@ hr{
     .testimonials{
         padding: 0px 40px 0px 40px;
     }
+     footer {
+        display: flex;
+        flex-direction: column; /* Stack items */
+        align-items: center; /* Center-align content */
+        text-align: center; /* Better readability */
+        gap: 20px; /* Space between sections */
+        padding: 20px;
+    }
+
+    footer .footer-section {
+        width: 100%; 
+        margin: 0;
+    }
+
+    footer .social-icons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column; /* Vertical alignment for links */
+        gap: 10px;
+        padding: 0;
+    }
 }
-@media only screen and (min-width:300px) and (max-width:799px){
+@media only screen and (max-width:799px){
     .navbar .logo img{
         margin: 0px;
         margin-top: 40px;
