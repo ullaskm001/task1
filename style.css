@@ -424,11 +424,12 @@ hr{
     .secondtwo .p1, .secondtwo h2, .secondtwo .p2,
     .secondtwotwoone h3, .secondtwotwoone p,
     .secondtwotwotwo h3, .secondtwotwotwo p{
-        margin: 0px;
         text-align: left;
+        margin: 0px;
+        margin-top: 20px;
     }
     .secondtwo{
-        padding-left: 0px;
+        padding-top: 20px;
     }
     .second-section{
         padding-left: 10px;
