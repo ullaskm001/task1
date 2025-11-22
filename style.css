@@ -394,6 +394,8 @@ hr{
         margin-left: 0px;
         z-index: 999; /* show above everything */
     }
+    .second-section{
+    height: 100vh;}
     .menu button{
         margin-left: 35px;
         width: 80%;
@@ -471,9 +473,9 @@ hr{
     }
     .second-section{
         flex-direction: column;
-        height: auto;
         align-items: center;
         text-align: center;
+        height: fit-content;
     }
     .secondone{
         margin: 0px;
