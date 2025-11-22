@@ -569,5 +569,8 @@ hr{
     .quick-links p{
         text-align: left;
     }
+    .email input{
+        width: 200px;
+    }
 
 }
