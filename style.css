@@ -48,11 +48,14 @@ body{
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 .leftcover h1 span{
     color: rgb(255, 221, 0);
 }
 .leftcover p{
+    margin-top: 0px;
     font-size: 20px;
     color: rgb(122, 121, 121);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -62,11 +65,13 @@ body{
 }
 .rightcover img{
     border-radius: 20px;
+    margin-top: 0px;
 }
 .buttons{
     display: flex;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .btn1{
     background-color: rgb(255, 221, 0);
@@ -89,14 +94,16 @@ body{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-imagesdiv{
+.imagesdiv{
     margin-right: 0px;
+    margin-top: 0px;
 }
 .imagesdiv img{
     margin-top: 40px;
     height: 50px;
     width: 50px;
     border-radius: 100px;
+    margin-top: 30px;
 }
 .image2{
     position: relative;
@@ -110,7 +117,7 @@ imagesdiv{
     display: flex;
 }
 .startrusted{
-    margin-top: 45px;;
+    margin-top: 35px;
 }
 .startrusted .trusted{
     color: rgb(122, 121, 121);
@@ -135,38 +142,47 @@ imagesdiv{
     font-weight: bold;
     margin-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
 }
 .secondtwo h2{
     color: white;
     font-size: 40px;
     margin-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .secondtwo .p2{
     color: rgb(122, 121, 121);
     margin-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 .secondtwotwo {
     display: flex;
     gap: 100px;
+    margin-top: 0px;
 }
 .secondtwotwoone h3{
     font-size: 30px;
     color: rgb(255, 221, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 .secondtwotwoone p{
     color: rgb(122, 121, 121);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
+    margin-top: 0px;
 }
 .secondtwotwotwo h3{
     font-size: 30px;
     color: rgb(255, 221, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 .secondtwotwotwo p{
     color: rgb(122, 121, 121);
@@ -186,8 +202,11 @@ imagesdiv{
     color: white;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .testimonials {
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,6 +241,7 @@ imagesdiv{
     background-color: rgb(67, 65, 65);
     border-radius: 5px;
     padding: 20px;
+    margin-top: 0px;
 }
 .footer{
     display: flex;
@@ -323,11 +343,9 @@ hr{
     }
 }
 @media only screen and (min-width:300px) and (max-width:799px){
-    .navbar .logo{
-        width: 25%;
+    .navbar .logo img{
         margin: 0px;
-        position: relative;
-        right: 50px;
+        margin-top: 40px;
     }
        .menu {
         display: none; /* Hide menu */
