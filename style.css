@@ -45,7 +45,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
 }
 .leftcover{
     padding: 0px 50px 0px 50px;
@@ -394,8 +393,6 @@ hr{
         margin-left: 0px;
         z-index: 999; /* show above everything */
     }
-    .second-section{
-    height: auto;}
     .menu button{
         margin-left: 35px;
         width: 80%;
@@ -477,12 +474,9 @@ hr{
         text-align: center;
     }
     .secondone{
-        margin: 0px;
-        margin-bottom: 50px;
-    }
-    .secondone img{
         display: none;
     }
+
     .secondtwo .p1, .secondtwo h2, .secondtwo .p2,
     .secondtwotwoone h3, .secondtwotwoone p,
     .secondtwotwotwo h3, .secondtwotwotwo p{
