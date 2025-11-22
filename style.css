@@ -1,0 +1,463 @@
+body{
+    background-color: black;
+}
+/* header */
+.logo img{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.menu ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.menu ul li{
+    color: white;
+}
+.menu button{
+    background-color: rgb(255, 221, 0);
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* first section */
+.cover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.leftcover{
+    padding: 0px 50px 0px 50px;
+}
+.leftcover h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.leftcover h1 span{
+    color: rgb(255, 221, 0);
+}
+.leftcover p{
+    font-size: 20px;
+    color: rgb(122, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rightcover{
+    padding: 0px 50px 0px 50px;
+}
+.rightcover img{
+    border-radius: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.btn1{
+    background-color: rgb(255, 221, 0);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid rgb(255, 221, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+imagesdiv{
+    margin-right: 0px;
+}
+.imagesdiv img{
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.image2{
+    position: relative;
+    right: 20px;
+}
+.image3{
+    position: relative;
+    right: 40px;
+}
+.imagesandtrust{
+    display: flex;
+}
+.startrusted{
+    margin-top: 45px;;
+}
+.startrusted .trusted{
+    color: rgb(122, 121, 121);
+}
+.stars img{
+    height: 20px;
+    width: 20px;
+}
+/* second section */
+.second-section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 50px 0px 50px;
+}
+.secondone img{
+    width: 550px;
+    border-radius: 20px;
+}
+.secondtwo .p1{
+    color:  rgb(255, 221, 0);
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondtwo h2{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondtwo .p2{
+    color: rgb(122, 121, 121);
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondtwotwo {
+    display: flex;
+    gap: 100px;
+}
+.secondtwotwoone h3{
+    font-size: 30px;
+    color: rgb(255, 221, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+.secondtwotwoone p{
+    color: rgb(122, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+.secondtwotwotwo h3{
+    font-size: 30px;
+    color: rgb(255, 221, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+.secondtwotwotwo p{
+    color: rgb(122, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+/* Our Courses */
+.ourcourses{
+    text-align: center;
+}
+.ourcourses p{
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ourcourses h4{
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    padding: 0px 50px 0px 50px;
+}
+.testiimage{
+    display: flex;
+    align-items: center;
+}
+.testimageimg img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+}
+.testtest h5{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+.testtest p{
+    color: rgb(255, 221, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+.testtexttjeseo{
+    color: rgb(122, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testi1{
+    background-color: rgb(67, 65, 65);
+    border-radius: 5px;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 50px 50px;
+}
+.footerone p{
+    color: rgb(122, 121, 121);
+    font-size: 17px;
+}
+.footerone{
+    margin-top: 20px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+.social-icons img{
+    height: 30px;
+    width: 30px;
+}
+.quick-links h4{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quick-links p{
+    color: rgb(122, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.email input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(19, 19, 19);
+}
+.email button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 221, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+.copyright p{
+    color: rgb(122, 121, 121);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    border: 1px solid rgb(40, 39, 39);
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+    .menu{
+        margin-right: 0px;
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .rightcover img{
+        display: none;
+    }
+    .leftcover{
+        margin-top: 100px;
+        height: auto;
+    }
+    .second-section{
+        flex-direction: column;
+        height: auto;
+        align-items: left;
+    }
+    .secondone{
+        margin-right: 200px;
+        margin-bottom: 50px;
+    }
+    .second-section{
+        margin-bottom: 100px;
+    }
+    .secondtwo .p1{
+        margin-left: 0px;
+    }
+    .secondtwo h2{
+        margin-left: 0px;
+    }
+    .secondtwo .p2{
+        margin-left: 0px;
+    }
+    .secondtwotwoone h3{
+        margin-left: 0px;
+    }
+    .secondtwotwoone p{
+        margin-left: 0px;
+    }
+    .testimonials{
+        padding: 0px 40px 0px 40px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:799px){
+       .menu {
+        display: none; /* Hide menu */
+        position: fixed; /* so it stays on top */
+        top: 70px;
+
+
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9); /* visible background */
+        padding: 20px;
+        border-radius: 10px;
+        text-align: right;
+        /* Change this ⬇ */
+        text-align: left;
+        margin-left: 0px;
+        z-index: 999; /* show above everything */
+    }
+    .menu button{
+        margin-left: 35px;
+        width: 80%;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+     .menu ul li {
+        color: #fff; /* visible text */
+        font-size: 20px;
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger */
+        font-size: 30px;
+        color: white;
+        margin-top: 35px;
+        margin-right: 40px;
+    }
+
+    .menu.active {
+        display: block; /* Toggle */
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .rightcover img{
+        display: none;
+    }
+    .leftcover{
+        margin-top: 100px;
+        height: auto;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .leftcover p{
+        margin-top: 0px;
+    }
+    .leftcover h1{
+        margin-bottom: 20px;
+    }
+    .buttons{
+        justify-content: left;
+        margin: 0px;
+    }
+    .imagesandtrust{
+        flex-direction: column;
+        align-items: left;
+        gap: 10px;
+    }
+    .imagesdiv img{
+        margin-top: 50px;
+    }
+    .startrusted{
+        margin-top: 10px;
+    }
+    .rightcover img{
+        display: none;
+    }
+    .second-section{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .secondone{
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .secondone img{
+        display: none;
+    }
+    .secondtwo .p1, .secondtwo h2, .secondtwo .p2,
+    .secondtwotwoone h3, .secondtwotwoone p,
+    .secondtwotwotwo h3, .secondtwotwotwo p{
+        margin: 0px;
+        text-align: left;
+    }
+    .secondtwo{
+        padding-left: 0px;
+    }
+    .second-section{
+        padding-left: 10px;
+    }
+    .ourcourses p{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .ourcourses h4{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .testimonials{
+        flex-direction: column;
+        padding: 0px 20px 0px 20px;
+    }
+    .footer{
+    flex-direction: column;
+    align-items: flex-start; /* Change center → left */
+    text-align: left; /* Keep all text left-aligned */
+    gap: 30px;
+    padding: 0px;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+    .footerone p{
+        text-align: left;
+    }
+    .quick-links p{
+        text-align: left;
+    }
+
+}
